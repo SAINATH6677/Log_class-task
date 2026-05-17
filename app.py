@@ -15,7 +15,7 @@ st.title("Logistic Classification App")
 # -----------------------------
 # Load Dataset
 # -----------------------------
-df = pd.read_csv("/data/Documents/tekworks/tekworks_tasks/college_student_placement_dataset.csv")
+df = pd.read_csv("college_student_placement_dataset.csv")
 
 st.subheader("Dataset")
 st.write(df.head())
